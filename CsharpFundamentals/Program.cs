@@ -12,9 +12,9 @@ namespace HelloWorld
         {
 		var dateTime = new DateTime(2015, 1, 1);
 		var now = DateTime.Now;
-		
-		/* Gets a DateTime object that is set to the current date 
-		and time on a computer, expressed as the local time.*/
+		var today = DateTime.Today;
+		// An object that is set to today's date, with the time component set to 00:00:00.
+
         }
     }
 }
