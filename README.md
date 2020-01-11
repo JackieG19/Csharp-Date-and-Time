@@ -25,3 +25,4 @@
 - TimeSpan.ToString();
 - TimeSpan.Parse();
 
+Next -> [Working-with-Text](https://github.com/JackieG19/Csharp-Working-with-Text)
