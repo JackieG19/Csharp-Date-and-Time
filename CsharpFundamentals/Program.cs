@@ -12,9 +12,9 @@ namespace HelloWorld
         {
 		var timeSpan = new TimeSpan(1,2,3);
 		
-		// ToString
-		Console.WriteLine("ToString" + timeSpan.ToString());
-		//Converts the value of the current TimeSpan object to its equivalent string representation.
+		// Parse
+		Console.WriteLine("Parse:" + TimeSpan.Parse("01:02:03"));
+		/*Converts the string representation of a time interval to its TimeSpan equivalent.*/
         }
     }
 }
