@@ -12,9 +12,10 @@ namespace HelloWorld
         {
 		var dateTime = new DateTime(2015, 1, 1);
 		var now = DateTime.Now;
-		var today = DateTime.Today;
-		// An object that is set to today's date, with the time component set to 00:00:00.
-
+		
+		Console.WriteLine("Minutes: " + now.Minute);
+		/*Gets the minute component of the date represented by this instance
+		The minute component, expressed as a value between 0 and 59.*/
         }
     }
 }
