@@ -14,9 +14,9 @@ namespace HelloWorld
 		var now = DateTime.Now;
 		var today = DateTime.Today;
 		
-		Console.WriteLine(now.ToShortDateString);
+		Console.WriteLine(now.ToLongTimeString);
 		/*This method is used to convert the value of the current DateTime 
-		object to its equivalent short date string representation.*/
+		object to its equivalent long time string representation.*/
         }
     }
 }
