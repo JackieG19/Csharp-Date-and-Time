@@ -13,9 +13,8 @@ namespace HelloWorld
 		var timeSpan = new TimeSpan(1,2,3);
 		
 		// Properties
-		Console.WriteLine("Minutes" + timeSpan.Minutes);
-		/*Getting the minutes component of the time interval 
-		represented by the current TimeSpan structure.*/
+		Console.WriteLine("Total Minutes" + timeSpan.TotalMinutes);
+		/*Getting the value of the current TimeSpan structure expressed in whole and fractional minutes.*/
         }
     }
 }
